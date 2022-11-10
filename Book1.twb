@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20193.19.0821.2225                               -->
+<workbook original-version='18.1' source-build='2019.3.0 (20193.19.0821.2225)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='netflix_titles' inline='true' name='federated.0n6csfg1ux36pd1cljtzd1g3ywdy' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='netflix_titles' name='textscan.1mqxdq303vuqm816471ra0brzevp'>
+            <connection class='textscan' directory='C:/Users/Win1OPro Station/Desktop/Kaggle Datasets' filename='netflix_titles.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1mqxdq303vuqm816471ra0brzevp' name='netflix_titles.csv' table='[netflix_titles#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='show_id' ordinal='0' />
+            <column datatype='string' name='type' ordinal='1' />
+            <column datatype='string' name='title' ordinal='2' />
+            <column datatype='string' name='director' ordinal='3' />
+            <column datatype='string' name='cast' ordinal='4' />
+            <column datatype='string' name='country' ordinal='5' />
+            <column datatype='date' name='date_added' ordinal='6' />
+            <column datatype='integer' name='release_year' ordinal='7' />
+            <column datatype='string' name='rating' ordinal='8' />
+            <column datatype='string' name='duration' ordinal='9' />
+            <column datatype='string' name='listed_in' ordinal='10' />
+            <column datatype='string' name='description' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[netflix_titles.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>show_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[show_id]</local-name>
+            <parent-name>[netflix_titles.csv]</parent-name>
+            <remote-alias>show_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[netflix_titles.csv]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[title]</local-name>
+            <parent-name>[netflix_titles.csv]</parent-name>
+            <remote-alias>title</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>director</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[director]</local-name>
+            <parent-name>[netflix_titles.csv]</parent-name>
+            <remote-alias>director</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cast</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cast]</local-name>
+            <parent-name>[netflix_titles.csv]</parent-name>
+            <remote-alias>cast</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[netflix_titles.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date_added</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date_added]</local-name>
+            <parent-name>[netflix_titles.csv]</parent-name>
+            <remote-alias>date_added</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>release_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[release_year]</local-name>
+            <parent-name>[netflix_titles.csv]</parent-name>
+            <remote-alias>release_year</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rating</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rating]</local-name>
+            <parent-name>[netflix_titles.csv]</parent-name>
+            <remote-alias>rating</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duration</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[duration]</local-name>
+            <parent-name>[netflix_titles.csv]</parent-name>
+            <remote-alias>duration</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>listed_in</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[listed_in]</local-name>
+            <parent-name>[netflix_titles.csv]</parent-name>
+            <remote-alias>listed_in</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[netflix_titles.csv]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Cast' datatype='string' name='[cast]' role='dimension' type='nominal' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Date Added' datatype='date' name='[date_added]' role='dimension' type='ordinal' />
+      <column caption='Description' datatype='string' name='[description]' role='dimension' type='nominal' />
+      <column caption='Director' datatype='string' name='[director]' role='dimension' type='nominal' />
+      <column caption='Duration' datatype='string' name='[duration]' role='dimension' type='nominal' />
+      <column caption='Listed In' datatype='string' name='[listed_in]' role='dimension' type='nominal' />
+      <column caption='Rating' datatype='string' name='[rating]' role='dimension' type='nominal' />
+      <column caption='Release Year' datatype='integer' name='[release_year]' role='dimension' type='quantitative' />
+      <column caption='Show Id' datatype='string' name='[show_id]' role='dimension' type='nominal' />
+      <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+      <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+      <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.352645' measure-ordering='alphabetic' measure-percentage='0.647355' show-structure='true' user-set-layout='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:type:nk]' type='palette'>
+            <map to='#d3293d'>
+              <bucket>&quot;Movie&quot;</bucket>
+            </map>
+            <map to='#fca290'>
+              <bucket>&quot;TV Show&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ff0000' fontsize='24'>Total movies &amp; TV shows by year</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='netflix_titles' name='federated.0n6csfg1ux36pd1cljtzd1g3ywdy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0n6csfg1ux36pd1cljtzd1g3ywdy'>
+            <column-instance column='[show_id]' derivation='CountD' name='[ctd:show_id:qk]' pivot='key' type='quantitative' />
+            <column caption='Date Added' datatype='date' name='[date_added]' role='dimension' type='ordinal' />
+            <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
+            <column caption='Show Id' datatype='string' name='[show_id]' role='dimension' type='nominal' />
+            <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+            <column-instance column='[date_added]' derivation='Year' name='[yr:date_added:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0n6csfg1ux36pd1cljtzd1g3ywdy].[yr:date_added:ok]'>
+            <groupfilter from='2008' function='range' level='[yr:date_added:ok]' to='2021' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0n6csfg1ux36pd1cljtzd1g3ywdy].[yr:date_added:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0n6csfg1ux36pd1cljtzd1g3ywdy].[ctd:show_id:qk]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0n6csfg1ux36pd1cljtzd1g3ywdy].[yr:date_added:ok]' value='105' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='color' value='#ffffff' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0n6csfg1ux36pd1cljtzd1g3ywdy].[none:type:nk]' />
+              <text column='[federated.0n6csfg1ux36pd1cljtzd1g3ywdy].[none:type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0n6csfg1ux36pd1cljtzd1g3ywdy].[ctd:show_id:qk]</rows>
+        <cols>[federated.0n6csfg1ux36pd1cljtzd1g3ywdy].[yr:date_added:ok]</cols>
+      </table>
+      <simple-id uuid='{325C904C-BA5D-418C-BC03-8E7867262D73}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0n6csfg1ux36pd1cljtzd1g3ywdy].[none:show_id:nk]</field>
+            <field>[federated.0n6csfg1ux36pd1cljtzd1g3ywdy].[none:type:nk]</field>
+            <field>[federated.0n6csfg1ux36pd1cljtzd1g3ywdy].[yr:date_added:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{23AD4E30-A9BE-47C9-AFF4-57B0A03A37F1}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      0hgvZmzeUMAcl6/dzsp6AKobW8lPzZAOxZgZvUq8cQsjw8O0bK7lxMkzZGeLwM0Ls2dHO6fO
+      Xqa1rozh2zMU+HOEympZuHeN0Ym1HeEepaWjm7m714hUNXD94nkqq6q4euMONRXFXL1+K2vr
+      CUfKaasvZ/jmFOVhmEp6zN+7TX17FzcunWV8Zj5LazJ07+5h5MJpmto6ODcwSHW8lDk/SHkB
+      nB0aztJ6oKyqjsoil4lFF2dhHLcoxs1Ll6hsbGXixofMPeTAk/U/g3qBPILFcV796m7ODA3z
+      zWf28u7VSfaWFOKR4PI/fDdr60onEhx49iCz86MUVx/i5uBxDj33daamPyY5foPTI2s7bP4y
+      +aEQ5Y3dfK2jiQ9nfGYS1+muncct34JJtfHv3/t+VtYDDktJn4O/9zx37lykvbmGkvwiRt/8
+      Kfv27Obq9TeytB4IuoaOHXvZ1jHDVBJuT6dYGvpfPjYhDuzp4shP3s3OikyQpJ/Hy3/+V5x5
+      7z2++LlO8orrOHbiDL0H9jI4NLzqTemvwkkn2df7m0xNT+Ibl2RxhIWRWxx++U/54be/wfk7
+      D3lMltadEa5o4ItPt3Ji8Bpbmhu4OTFPXUURuAGMk923xF9++VUuDZ4gHKsmMXWLupY23n/7
+      GPcmppicWcjaeja172FrWZorEymaKiKEY1FamjcTLinHpLK3Htwgr7z8h5z84P+I17WQXkqw
+      qWEz9dVxNre2kZ/Fs9TueuYgwflRZtNBygqDRErLadvWyUuHfouBLP5WJlTMq1/5PD//+Sna
+      tnWwkPBpattCVWkxobwCsrlL/PbhF7kzcoFAQYSQm6asLM6ufXtZmp0iFos99DH/D8PNzfI/
+      51AvAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
